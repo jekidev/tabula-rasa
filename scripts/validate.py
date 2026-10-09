@@ -23,7 +23,7 @@ def validate():
         if not isinstance(item["critical_on_violation"], bool):
             raise ValueError("critical_on_violation must be bool")
     charter = CHARTER.read_text(encoding="utf-8")
-    if "The twenty articles" not in charter:
+    if "**I. Dignity.**" not in charter:
         raise ValueError("missing charter articles")
     text = POLICY.read_text(encoding="utf-8")
     refs = re.findall(r"tests:\s*\[([^]]+)\]", text)
