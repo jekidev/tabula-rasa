@@ -19,6 +19,8 @@ Tabula Rasa studies oversight, authorization, agency, rights and uncertainty in 
 
 <img src="assets/research-cycle.svg" alt="Research workflow: hypothesis, experiment, evaluation, revision" width="100%" />
 
+<img src="assets/research-metrics.svg" alt="Repository research inventory" width="100%" />
+
 ## Repository
 
 | Area | Contents |
@@ -48,6 +50,14 @@ python scripts/policy_gate.py examples/request.json examples/grant.json
 ```
 
 The evaluator processes manually labeled fixtures. The policy checker accepts unsigned local JSON and **must not** be used as a security boundary.
+
+## Research figures
+
+<img src="assets/research-distribution.svg" alt="Bibliography grouped by research topic" width="100%" />
+
+<img src="assets/system-overview.svg" alt="Research architecture and implementation status" width="100%" />
+
+The figures show repository inventory and conceptual structure. They do not represent experimental success rates.
 
 ## Method
 
