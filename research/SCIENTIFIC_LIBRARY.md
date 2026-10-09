@@ -51,7 +51,6 @@
 - **The Neuroscience of Consciousness** (Dehaene and Changeux, 2011) · [Source](https://doi.org/10.1016/j.neuron.2011.03.018) · DOI
 - **The Global Neuronal Workspace Model of Conscious Access** (Mashour et al., 2020) · [Source](https://doi.org/10.1016/j.neuron.2020.01.026) · DOI
 - **Moral Status of Artificial Intelligence** (Bostrom and Yudkowsky, 2014) · [Source](https://nickbostrom.com/ethics/artificial-intelligence.pdf) · URL
-- **The Ethics of Artificial Intelligence** (Bostrom and Yudkowsky, 2014) · [Source](https://nickbostrom.com/ethics/artificial-intelligence.pdf) · URL
 - **Ethics of Artificial Intelligence and Robotics** (Müller, 2020) · [Source](https://plato.stanford.edu/entries/ethics-ai/) · URL
 - **Artificial Intelligence and Moral Status** (Schwitzgebel and Garza, 2015) · [Source](https://faculty.ucr.edu/~eschwitz/SchwitzPapers/AIMoralStatus-150423.pdf) · URL
 
@@ -65,7 +64,6 @@
 - **The Psychological Effects of Humanlike Chatbots** (Skjuve et al., 2021) · [Source](https://doi.org/10.1016/j.ijhcs.2021.102601) · DOI
 - **The Impact of Artificial Intelligence on Human Society and Bioethics** (Tai, 2020) · [Source](https://doi.org/10.3390/ts2010014) · DOI
 - **Social and Ethical Implications of Human-AI Interaction** (Amershi et al., 2019) · [Source](https://doi.org/10.1145/3290605.3300233) · DOI
-- **On the Dangers of Stochastic Parrots** (Bender et al., 2021) · [Source](https://doi.org/10.1145/3442188.3445922) · DOI
 
 ## Governance, security, privacy and standards
 
