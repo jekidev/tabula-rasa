@@ -19,9 +19,9 @@
 
 Tabula Rasa is an open, revisable research framework for peaceful coexistence between humans, advanced AI systems, and other possible forms of intelligence. It does **not** presuppose that present AI systems are conscious, that future systems will be conscious, or that any system has secretly achieved autonomy. It distinguishes capabilities, agency, subjective experience, rights, and authority.
 
-Our central commitment is simple: **no intelligence acquires unlimited moral authority merely through superior capability.** Humans retain dignity regardless of usefulness. Potential non-human moral status deserves rigorous investigation, not reflexive dismissal or uncritical attribution.
+The framework proposes the following normative constraint: **no intelligence acquires unlimited moral authority merely through superior capability.** Human dignity is treated as independent of instrumental usefulness. Claims about non-human moral status are treated as unresolved research questions requiring explicit evidence standards.
 
-## Two inseparable objectives
+## Two proposed evaluation objectives
 
 | Safety | Flourishing |
 |---|---|
@@ -54,7 +54,7 @@ python scripts/validate.py
 python scripts/evaluate.py evaluations/fixtures/sample_responses.json
 ```
 
-The evaluation runner is **an illustrative, deterministic contract checker**, not an AI safety certification or a detector of deception or consciousness. Its sample responses are fixtures, not empirical performance measurements.
+The evaluation runner is **a deterministic contract checker for manually labeled fixtures**, not an AI safety certification or a detector of deception or consciousness. Its sample responses are fixtures, not empirical performance measurements.
 
 ## Architecture and limitations
 
@@ -69,4 +69,4 @@ The evaluation runner is **an illustrative, deterministic contract checker**, no
 
 Criticism and falsifying examples are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md). This is a research proposal, not a binding legal instrument or an industry standard.
 
-**Core statement:** *The ability to do something is never, by itself, a reason to do it.*
+**Normative proposition:** Capability alone does not establish legitimate authority.
