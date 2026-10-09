@@ -1,5 +1,7 @@
 # Mathematical foundations of Tabula Rasa
 
+<img src="../assets/system-overview.svg" alt="Research visual overview" width="100%" />
+
 A reproducible collection of formal tools for analyzing AI oversight, authorization, evaluation, epistemic uncertainty and governance. The equations are **models and research instruments**, not proof that a deployed AI system is safe or conscious.
 
 ## Modules
