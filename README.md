@@ -46,6 +46,8 @@ The framework proposes the following normative constraint: **no intelligence acq
 | [evaluations/](evaluations/README.md) | Scenario-based benchmark, critical-failure logic and executable checks |
 | [docs/RESEARCH_ROADMAP.md](docs/RESEARCH_ROADMAP.md) | Research questions, uncertainties, validation milestones |
 | [research/EVIDENCE_MATRIX.md](research/EVIDENCE_MATRIX.md) | Claims, sources, evidence limitations and falsification criteria |
+| [research/SCIENTIFIC_LIBRARY.md](research/SCIENTIFIC_LIBRARY.md) | 72 curated scientific and policy resources, categorized by research domain |
+| [research/resources.json](research/resources.json) | Machine-readable bibliography with source links and verification status |
 | [research/PROTOCOL.md](research/PROTOCOL.md) | Preregisterable experiment design and primary endpoints |
 | [docs/THREAT_MODEL.md](docs/THREAT_MODEL.md) | Trust boundaries and missing production security controls |
 | [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md) | Explicit gates before production claims |
