@@ -1,6 +1,6 @@
 # Contributing to Tabula Rasa
 
-We welcome technical, philosophical, human-rights and empirical critiques.
+Technical, philosophical, human-rights and empirical critiques are within scope.
 
 ## Contributions that help
 
