@@ -1,5 +1,7 @@
 # Research evidence workspace
 
+<img src="../assets/research-distribution.svg" alt="Research visual overview" width="100%" />
+
 - [Scientific library](SCIENTIFIC_LIBRARY.md): curated bibliography; metadata require independent verification.
 - [Machine-readable resources](resources.json): source registry.
 - [Evidence matrix](EVIDENCE_MATRIX.md): illustrative claim-to-evidence mapping.
