@@ -1,4 +1,4 @@
-# Security policy
+# Security
 
 Do not report exposed credentials, sensitive user data or exploitable deployment vulnerabilities in public issues. Use private repository owner communication or GitHub private vulnerability reporting if enabled.
 
