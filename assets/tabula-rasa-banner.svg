@@ -18,4 +18,4 @@
 <text x="610" y="337" fill="#e7eaf4">TABULA</text>
 <text x="1110" y="337" fill="url(#title)">RASA</text>
 </g>
-</svg>
+<g fill="none" stroke="#8798dc" stroke-width="1" opacity=".20" aria-hidden="true"><path d="M128 23H51L23 51V115 M1472 23H1549L1577 51V115 M23 525V589L51 617H128 M1577 525V589L1549 617H1472"/><path d="M45 166h55 M45 178h32 M1500 166h55 M1523 178h32"/><circle cx="41" cy="314" r="3"/><circle cx="1559" cy="314" r="3"/><path stroke-dasharray="2 11" d="M41 352V486 M1559 352V486"/></g></svg>
