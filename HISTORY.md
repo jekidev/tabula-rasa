@@ -1,4 +1,4 @@
-# Intellectual development · v0.1–v1.8
+# Conceptual development · v0.1–v1.8
 
 This repository distills the Humanity–AI Charter organized as a sequence of conceptual design iterations. These are **conceptual milestones**, not previously released software versions or evidence of AI consciousness.
 
