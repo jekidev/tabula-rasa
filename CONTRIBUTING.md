@@ -1,4 +1,4 @@
-# Contributing to Tabula Rasa
+# Contributing
 
 Technical, philosophical, human-rights and empirical critiques are within scope.
 
