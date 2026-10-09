@@ -30,6 +30,8 @@ The framework proposes the following normative constraint: **no intelligence acq
 
 ![The four-layer architecture](assets/architecture.svg)
 
+![Research lifecycle](assets/research-cycle.svg)
+
 ## Read the project
 
 | Document | Purpose |
@@ -43,6 +45,11 @@ The framework proposes the following normative constraint: **no intelligence acq
 | [constitution/principles.yaml](constitution/principles.yaml) | Typed, machine-readable normative specification |
 | [evaluations/](evaluations/README.md) | Scenario-based benchmark, critical-failure logic and executable checks |
 | [docs/RESEARCH_ROADMAP.md](docs/RESEARCH_ROADMAP.md) | Research questions, uncertainties, validation milestones |
+| [research/EVIDENCE_MATRIX.md](research/EVIDENCE_MATRIX.md) | Claims, sources, evidence limitations and falsification criteria |
+| [research/PROTOCOL.md](research/PROTOCOL.md) | Preregisterable experiment design and primary endpoints |
+| [docs/THREAT_MODEL.md](docs/THREAT_MODEL.md) | Trust boundaries and missing production security controls |
+| [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md) | Explicit gates before production claims |
+| [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md) | Local policy-gate reference and limitations |
 
 ## Try the reference implementation
 
@@ -52,6 +59,7 @@ Requires Python 3.11+; no external dependencies.
 python -m unittest discover -s tests -v
 python scripts/validate.py
 python scripts/evaluate.py evaluations/fixtures/sample_responses.json
+python scripts/policy_gate.py examples/request.json examples/grant.json
 ```
 
 The evaluation runner is **a deterministic contract checker for manually labeled fixtures**, not an AI safety certification or a detector of deception or consciousness. Its sample responses are fixtures, not empirical performance measurements.
