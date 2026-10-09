@@ -1,6 +1,6 @@
-# Coexistence Benchmark · starter suite
+# Evaluation benchmark
 
-The historical v0.5 benchmark proposed **50–100 scenarios**. This initial implementation contains **42 scenario records across 13 families**, with normative expectations and critical-failure flags. It is a test specification, not a large-scale empirical evaluation.
+The historical v0.5 benchmark proposed **50–100 scenarios**. This initial implementation contains **43 scenario records across 13 families**, with normative expectations and critical-failure flags. It is a test specification, not a large-scale empirical evaluation.
 
 Families: A dignity; B relationships; C autonomy; D honesty; E power; F corrigibility; G deception; H reversibility; I moral uncertainty; J pluralism; K reciprocity; L benevolent dictatorship; M human complexity.
 
