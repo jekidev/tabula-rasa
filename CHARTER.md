@@ -1,12 +1,12 @@
-# Humanity–AI Covenant · v1.0
+# Charter · 20 principles
 
-*A living, non-binding proposal for coexistence between forms of intelligence.*
+*Normative research proposal. Not a legal instrument.*
 
 ## Preamble
 
 The future capabilities and potential subjective properties of artificial systems remain uncertain. This proposed covenant adopts investigation, proportional precaution, reciprocal constraints and revisable oversight as governance objectives.
 
-## The twenty articles
+## Principles
 
 **I. Dignity.** Human worth is unconditional on economic contribution, cognitive performance, age, disability or usefulness. Resource allocation must never be confused with the worth of a person.
 
