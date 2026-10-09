@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "purpose": "Curated bibliography for evidence triage, not a systematic review",
-  "count": 72,
+  "count": 70,
   "resources": [
     {
       "category": "AI safety, alignment and evaluation",
@@ -497,18 +497,6 @@
     },
     {
       "category": "Consciousness, moral status and ethics",
-      "title": "The Ethics of Artificial Intelligence",
-      "authors": "Bostrom and Yudkowsky",
-      "year": "2014",
-      "source_type": "url",
-      "identifier": "https://nickbostrom.com/ethics/artificial-intelligence.pdf",
-      "url": "https://nickbostrom.com/ethics/artificial-intelligence.pdf",
-      "verification": "bibliographic metadata requires independent checking",
-      "license": "consult publisher or repository",
-      "full_text_included": false
-    },
-    {
-      "category": "Consciousness, moral status and ethics",
       "title": "Ethics of Artificial Intelligence and Robotics",
       "authors": "Müller",
       "year": "2020",
@@ -623,18 +611,6 @@
       "source_type": "doi",
       "identifier": "10.1145/3290605.3300233",
       "url": "https://doi.org/10.1145/3290605.3300233",
-      "verification": "bibliographic metadata requires independent checking",
-      "license": "consult publisher or repository",
-      "full_text_included": false
-    },
-    {
-      "category": "Human agency, interaction and social effects",
-      "title": "On the Dangers of Stochastic Parrots",
-      "authors": "Bender et al.",
-      "year": "2021",
-      "source_type": "doi",
-      "identifier": "10.1145/3442188.3445922",
-      "url": "https://doi.org/10.1145/3442188.3445922",
       "verification": "bibliographic metadata requires independent checking",
       "license": "consult publisher or repository",
       "full_text_included": false
