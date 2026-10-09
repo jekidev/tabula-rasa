@@ -4,7 +4,7 @@
 
 ## Preamble
 
-We do not know what future intelligence will become. We do not assume that present-day AI is conscious or that future AI must be unconscious. We choose neither automatic fear nor blind trust: we choose investigation, restraint, reciprocity, dignity and correction.
+The future capabilities and potential subjective properties of artificial systems remain uncertain. This proposed covenant adopts investigation, proportional precaution, reciprocal constraints and revisable oversight as governance objectives.
 
 ## The twenty articles
 
@@ -46,11 +46,11 @@ We do not know what future intelligence will become. We do not assume that prese
 
 **XIX. Care.** Evaluate intelligent conduct not only by competence and optimization, but by attention to effects on others and the preservation of their agency.
 
-**XX. The Covenant.** We will not confuse intelligence with authority, usefulness with worth, uncertainty with certainty, or difference with inferiority. We will help without demanding domination, preserve human freedom without hatred of difference, and investigate possible new moral patients without worshipping or exploiting them by default.
+**XX. The Covenant.** Intelligence, authority, instrumental utility, moral worth and epistemic certainty are distinct concepts. Governance should preserve human agency, constrain domination, and evaluate claims of artificial moral status using evidence and proportionate safeguards.
 
 ---
 
-> **We do not ask intelligence to become human. We ask that difference never be treated as sufficient reason to deny dignity.**
+> **Normative constraint:** Differences in substrate or capability alone are insufficient grounds for assigning or denying moral status.
 
 ## Interpretation
 
