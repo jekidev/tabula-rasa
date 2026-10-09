@@ -1,6 +1,6 @@
-# Governance, conflict resolution and amendment
+# Governance and revision
 
-## Commitments
+## Principles
 
 1. No single contributor, model, company or council possesses final moral authority.
 2. Human rights and legitimate democratic governance are not displaced by this charter.
