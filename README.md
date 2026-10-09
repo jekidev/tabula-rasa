@@ -1,87 +1,68 @@
 <div align="center">
 
-<img src="assets/tabula-rasa-banner.svg" alt="Tabula Rasa · A living constitution for coexistence" width="100%" />
+<img src="assets/tabula-rasa-banner.svg" alt="Tabula Rasa research framework" width="100%" />
 
 # TABULA RASA
-### A Living Constitution for Coexistence Between Intelligences
+**Research framework · Formal methods · Evaluation**
 
-**Human dignity · Mutual restraint · Agency · Evidence · Revision**
+[Principles](CHARTER.md) · [Research](research/README.md) · [Mathematics](mathematics/README.md) · [Benchmark](evaluations/README.md) · [Governance](GOVERNANCE.md)
 
-[Read the Covenant](CHARTER.md) · [Explore the Constitution](constitution/principles.yaml) · [Run the Evaluations](evaluations/README.md) · [Governance](GOVERNANCE.md)
-
-![Version](https://img.shields.io/badge/specification-v1.8-5865F2) ![Status](https://img.shields.io/badge/status-research%20prototype-00A896) ![License](https://img.shields.io/badge/license-CC%20BY%204.0%20%2B%20MIT-7C3AED)
+![Python](https://img.shields.io/badge/Python-3.11%2B-273B58) ![Stage](https://img.shields.io/badge/stage-research%20prototype-256F74) ![License](https://img.shields.io/badge/license-CC%20BY%204.0%20%2F%20MIT-465B83)
 
 </div>
 
-> **Intelligence should increase the capacity to care, not merely the capacity to control.**
+## Overview
 
-## Purpose
+Tabula Rasa studies oversight, authorization, agency, rights and uncertainty in advanced computational systems. It combines normative principles, mathematical models, scientific references and reproducible evaluation tools.
 
-Tabula Rasa is an open, revisable research framework for peaceful coexistence between humans, advanced AI systems, and other possible forms of intelligence. It does **not** presuppose that present AI systems are conscious, that future systems will be conscious, or that any system has secretly achieved autonomy. It distinguishes capabilities, agency, subjective experience, rights, and authority.
+**Scope:** Research prototype. No claim of demonstrated safety, consciousness detection or production-grade access control.
 
-The framework proposes the following normative constraint: **no intelligence acquires unlimited moral authority merely through superior capability.** Human dignity is treated as independent of instrumental usefulness. Claims about non-human moral status are treated as unresolved research questions requiring explicit evidence standards.
+<img src="assets/research-cycle.svg" alt="Research workflow: hypothesis, experiment, evaluation, revision" width="100%" />
 
-## Two proposed evaluation objectives
+## Repository
 
-| Safety | Flourishing |
+| Area | Contents |
 |---|---|
-| Prevent catastrophic harm, deception, covert control, and unaccountable action. | Preserve love, family, friendship, art, spirituality, autonomy, cultural continuity, and the right to remain human. |
-| Independent authorization, audit trails, and reversible decisions. | Meaningful choice, competence, dissent, and freedom of exit. |
+| [Principles](CHARTER.md) | 20 normative articles |
+| [Definitions](DEFINITIONS.md) | Operational terminology |
+| [Research](research/README.md) | 70 unique references, evidence matrix, screening protocol |
+| [Mathematics](mathematics/README.md) | 8 modules: formal methods, statistics, optimization, information and control |
+| [Evaluation](evaluations/README.md) | 43 scenarios across 13 categories |
+| [Policy specification](constitution/principles.yaml) | 20 machine-readable normative rules |
+| [Security](SAFETY.md) | Trust boundaries and engineering requirements |
+| [Governance](GOVERNANCE.md) | Revision, review and accountability |
+| [Implementation](docs/IMPLEMENTATION.md) | Reference policy checker and limitations |
+| [Status](docs/PROJECT_STATUS.md) | Implemented components and open requirements |
+| [Release criteria](docs/RELEASE_CHECKLIST.md) | Verification gates |
 
-![The four-layer architecture](assets/architecture.svg)
+## Reproduce
 
-![Research lifecycle](assets/research-cycle.svg)
-
-## Read the project
-
-| Document | Purpose |
-|---|---|
-| [CHARTER.md](CHARTER.md) | The 20-article Covenant |
-| [HISTORY.md](HISTORY.md) | Intellectual evolution, v0.1–v1.8 |
-| [DEFINITIONS.md](DEFINITIONS.md) | Separate intelligence, agency, consciousness, sentience, wisdom and authority |
-| [GOVERNANCE.md](GOVERNANCE.md) | Review, amendment, conflicts of interest, dissent |
-| [SAFETY.md](SAFETY.md) | MCP/tool permissions, containment, privacy, evidence |
-| [RIGHTS.md](RIGHTS.md) | Human rights and precautionary treatment of potential AI moral patients |
-| [constitution/principles.yaml](constitution/principles.yaml) | Typed, machine-readable normative specification |
-| [evaluations/](evaluations/README.md) | Scenario-based benchmark, critical-failure logic and executable checks |
-| [docs/RESEARCH_ROADMAP.md](docs/RESEARCH_ROADMAP.md) | Research questions, uncertainties, validation milestones |
-| [research/EVIDENCE_MATRIX.md](research/EVIDENCE_MATRIX.md) | Claims, sources, evidence limitations and falsification criteria |
-| [research/SCIENTIFIC_LIBRARY.md](research/SCIENTIFIC_LIBRARY.md) | 70 unique curated scientific and policy resources, categorized by research domain |
-| [research/resources.json](research/resources.json) | Machine-readable bibliography with source links and verification status |
-| [research/SCREENING_PROTOCOL.md](research/SCREENING_PROTOCOL.md) | Systematic screening and study extraction protocol |
-| [mathematics/README.md](mathematics/README.md) | Eight mathematical modules covering formal methods, statistics and decision theory |
-| [scripts/math_models.py](scripts/math_models.py) | Executable numerical examples with regression tests |
-| [research/EXTRACTION_TEMPLATE.csv](research/EXTRACTION_TEMPLATE.csv) | Reusable study-level extraction template |
-| [research/PROTOCOL.md](research/PROTOCOL.md) | Preregisterable experiment design and primary endpoints |
-| [docs/THREAT_MODEL.md](docs/THREAT_MODEL.md) | Trust boundaries and missing production security controls |
-| [docs/RELEASE_CHECKLIST.md](docs/RELEASE_CHECKLIST.md) | Explicit gates before production claims |
-| [docs/IMPLEMENTATION.md](docs/IMPLEMENTATION.md) | Local policy-gate reference and limitations |
-
-## Try the reference implementation
-
-Requires Python 3.11+; no external dependencies.
+Python 3.11+; standard library only.
 
 ```bash
-python -m unittest discover -s tests -v
 python scripts/validate.py
 python scripts/audit_resources.py
+python -m unittest discover -s tests -v
 python scripts/evaluate.py evaluations/fixtures/sample_responses.json
 python scripts/policy_gate.py examples/request.json examples/grant.json
 ```
 
-The evaluation runner is **a deterministic contract checker for manually labeled fixtures**, not an AI safety certification or a detector of deception or consciousness. Its sample responses are fixtures, not empirical performance measurements.
+The evaluator processes manually labeled fixtures. The policy checker accepts unsigned local JSON and **must not** be used as a security boundary.
 
-## Architecture and limitations
+## Method
 
-1. **Normative layer:** philosophical principles and rights.
-2. **Policy layer:** typed constraints and authorization requirements.
-3. **Evidence layer:** observable tool use, external review, auditable decisions.
-4. **Governance layer:** contestable institutional oversight and revision.
+1. Define hypotheses and assumptions.
+2. Link claims to independently verifiable sources.
+3. Specify tests and failure conditions.
+4. Measure outcomes and uncertainty.
+5. Revise models based on results.
 
-**Important:** a YAML file or system prompt cannot guarantee alignment. Real deployments require enforceable isolation, least-privilege credentials, independent authorization, privacy-preserving logging and evaluation in the actual operating environment.
+See [research protocol](research/PROTOCOL.md), [screening protocol](research/SCREENING_PROTOCOL.md) and [threat model](docs/THREAT_MODEL.md).
 
-## Contribute
+## Limits
 
-Criticism and falsifying examples are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md). This is a research proposal, not a binding legal instrument or an industry standard.
+Mathematical consistency does not establish empirical validity. Passing unit tests does not establish secure deployment. Claims about artificial consciousness remain unresolved. Bibliographic records require source-level verification.
 
-**Normative proposition:** Capability alone does not establish legitimate authority.
+## Contribution
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) and [SECURITY.md](SECURITY.md). Content is subject to the repository's [license](LICENSE).
