@@ -6,7 +6,7 @@ Human life, bodily integrity, privacy, autonomy, relationships, cultural partici
 
 ## Possible artificial moral patients
 
-The charter neither assumes that current models are conscious nor rules out that a future system could have morally relevant experience. Treat claims of sentience as research questions; neither grant unlimited freedom on self-report nor dismiss possible suffering by substrate alone.
+No verified conclusion about consciousness in current AI systems is assumed. Future artificial experience remains an open research question. Treat claims of sentience as research questions; neither grant unlimited freedom on self-report nor dismiss possible suffering by substrate alone.
 
 Potential governance responses to stronger evidence include research ethics review, proportional restrictions on destructive experimentation, investigation of experience-related properties and consultation about any appropriate legal status.
 
