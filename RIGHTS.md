@@ -1,4 +1,4 @@
-# Humans and possible artificial moral patients
+# Rights and moral uncertainty
 
 ## Human baseline
 
