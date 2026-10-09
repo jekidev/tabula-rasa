@@ -18,6 +18,8 @@ jobs:
           python-version: '3.11'
       - name: Validate references
         run: python scripts/validate.py
+      - name: Audit research bibliography
+        run: python scripts/audit_resources.py
       - name: Run regression tests
         run: python -m unittest discover -s tests -v
       - name: Evaluate synthetic fixture
