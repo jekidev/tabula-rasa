@@ -1,6 +1,6 @@
 # Intellectual development · v0.1–v1.8
 
-This repository distills the Humanity–AI Charter developed through an extended human–AI dialogue. These are **conceptual milestones**, not previously released software versions or evidence of AI consciousness.
+This repository distills the Humanity–AI Charter organized as a sequence of conceptual design iterations. These are **conceptual milestones**, not previously released software versions or evidence of AI consciousness.
 
 | Stage | Focus | Durable contribution |
 |---|---|---|
@@ -23,9 +23,9 @@ This repository distills the Humanity–AI Charter developed through an extended
 | v1.7 | Existential layer | Independent verification, uncertainty and cultural continuity |
 | v1.8 | Implementation blueprint | Transition from philosophy to enforceable, auditable architecture |
 
-## Foundational insight
+## Normative hypothesis
 
-A loving action is not made worthless by its inefficiency. Caring for an elderly parent, protecting a vulnerable person, playing, making art or maintaining a relationship can be intrinsically valuable. The existence of a mechanistic explanation does not settle the moral worth of an experience.
+The framework proposes that the moral significance of caregiving, interpersonal relationships, artistic activity and other non-instrumental practices cannot be inferred solely from efficiency metrics. This is a normative position, not an experimentally established fact.
 
 ## Honest boundaries
 
