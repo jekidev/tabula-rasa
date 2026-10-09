@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Tabula Rasa: a living constitution for coexistence">
+<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#090d24"/><stop offset="1" stop-color="#18234b"/></linearGradient><radialGradient id="g"><stop stop-color="#65e0d2" stop-opacity=".55"/><stop offset="1" stop-color="#65e0d2" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="380" fill="url(#bg)"/><circle cx="960" cy="168" r="212" fill="url(#g)"/>
+<g stroke="#8da6d8" fill="none" opacity=".35"><circle cx="970" cy="182" r="90"/><circle cx="970" cy="182" r="148"/><ellipse cx="970" cy="182" rx="219" ry="68" transform="rotate(-30 970 182)"/><path d="M0 315 Q320 230 580 300 T1200 263"/></g>
+<g fill="#96f4de"><circle cx="880" cy="182" r="9"/><circle cx="1058" cy="182" r="9"/><circle cx="970" cy="34" r="6"/><circle cx="970" cy="330" r="6"/></g><path d="M880 182 Q970 89 1058 182 Q970 275 880 182Z" fill="none" stroke="#a5ffec" stroke-width="2"/>
+<text x="68" y="130" fill="#95e9db" font-size="17" font-family="Arial,sans-serif" letter-spacing="5">THE HUMANITY–AI COVENANT</text>
+<text x="64" y="213" fill="white" font-weight="700" font-size="73" font-family="Arial,sans-serif" letter-spacing="3">TABULA RASA</text>
+<text x="69" y="260" fill="#c8d5f6" font-size="22" font-family="Arial,sans-serif">A living constitution for coexistence</text>
+<text x="69" y="326" fill="#96f4de" font-size="15" font-family="Arial,sans-serif" letter-spacing="2">DIGNITY  /  AGENCY  /  RECIPROCITY  /  RESTRAINT</text>
+</svg>
