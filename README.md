@@ -49,6 +49,8 @@ The framework proposes the following normative constraint: **no intelligence acq
 | [research/SCIENTIFIC_LIBRARY.md](research/SCIENTIFIC_LIBRARY.md) | 70 unique curated scientific and policy resources, categorized by research domain |
 | [research/resources.json](research/resources.json) | Machine-readable bibliography with source links and verification status |
 | [research/SCREENING_PROTOCOL.md](research/SCREENING_PROTOCOL.md) | Systematic screening and study extraction protocol |
+| [mathematics/README.md](mathematics/README.md) | Eight mathematical modules covering formal methods, statistics and decision theory |
+| [scripts/math_models.py](scripts/math_models.py) | Executable numerical examples with regression tests |
 | [research/EXTRACTION_TEMPLATE.csv](research/EXTRACTION_TEMPLATE.csv) | Reusable study-level extraction template |
 | [research/PROTOCOL.md](research/PROTOCOL.md) | Preregisterable experiment design and primary endpoints |
 | [docs/THREAT_MODEL.md](docs/THREAT_MODEL.md) | Trust boundaries and missing production security controls |
