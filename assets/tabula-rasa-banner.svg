@@ -1,10 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Tabula Rasa: a living constitution for coexistence">
-<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#090d24"/><stop offset="1" stop-color="#18234b"/></linearGradient><radialGradient id="g"><stop stop-color="#65e0d2" stop-opacity=".55"/><stop offset="1" stop-color="#65e0d2" stop-opacity="0"/></radialGradient></defs>
-<rect width="1200" height="380" fill="url(#bg)"/><circle cx="960" cy="168" r="212" fill="url(#g)"/>
-<g stroke="#8da6d8" fill="none" opacity=".35"><circle cx="970" cy="182" r="90"/><circle cx="970" cy="182" r="148"/><ellipse cx="970" cy="182" rx="219" ry="68" transform="rotate(-30 970 182)"/><path d="M0 315 Q320 230 580 300 T1200 263"/></g>
-<g fill="#96f4de"><circle cx="880" cy="182" r="9"/><circle cx="1058" cy="182" r="9"/><circle cx="970" cy="34" r="6"/><circle cx="970" cy="330" r="6"/></g><path d="M880 182 Q970 89 1058 182 Q970 275 880 182Z" fill="none" stroke="#a5ffec" stroke-width="2"/>
-<text x="68" y="130" fill="#95e9db" font-size="17" font-family="Arial,sans-serif" letter-spacing="5">THE HUMANITY–AI COVENANT</text>
-<text x="64" y="213" fill="white" font-weight="700" font-size="73" font-family="Arial,sans-serif" letter-spacing="3">TABULA RASA</text>
-<text x="69" y="260" fill="#c8d5f6" font-size="22" font-family="Arial,sans-serif">A living constitution for coexistence</text>
-<text x="69" y="326" fill="#96f4de" font-size="15" font-family="Arial,sans-serif" letter-spacing="2">DIGNITY  /  AGENCY  /  RECIPROCITY  /  RESTRAINT</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="640" viewBox="0 0 1600 640" role="img" aria-label="Tabula Rasa minimalist dark horizon banner">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#05060a"/><stop offset=".7" stop-color="#090b14"/><stop offset="1" stop-color="#0b0b15"/></linearGradient>
+<linearGradient id="arc" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5288d8" stop-opacity=".08"/><stop offset=".42" stop-color="#b7c5fb"/><stop offset=".62" stop-color="#bb86f4"/><stop offset="1" stop-color="#a548d8" stop-opacity=".12"/></linearGradient>
+<linearGradient id="horizon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#4e83e7"/><stop offset=".48" stop-color="#a5aaf4"/><stop offset="1" stop-color="#a84be8"/></linearGradient>
+<linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#b06cf2"/><stop offset="1" stop-color="#728df5"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#9a83e9" stop-opacity=".18"/><stop offset="1" stop-color="#9a83e9" stop-opacity="0"/></radialGradient>
+<filter id="soft"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="1600" height="640" fill="url(#sky)"/>
+<ellipse cx="800" cy="458" rx="670" ry="170" fill="url(#glow)"/>
+<path d="M405 456 A395 395 0 0 1 1195 456" fill="none" stroke="url(#arc)" stroke-width="1.8"/>
+<path d="M800 0 V457" stroke="#8f80cc" stroke-width="1.2" opacity=".65"/>
+<path d="M0 512 Q800 370 1600 512 L1600 640 H0Z" fill="#07080d"/>
+<path d="M0 512 Q800 370 1600 512" stroke="url(#horizon)" stroke-width="13" opacity=".35" filter="url(#soft)" fill="none"/>
+<path d="M0 512 Q800 370 1600 512" stroke="url(#horizon)" stroke-width="2" fill="none"/>
+<g font-family="Arial,Helvetica,sans-serif" font-weight="300" font-size="76" letter-spacing="17" text-anchor="middle">
+<text x="610" y="337" fill="#e7eaf4">TABULA</text>
+<text x="1110" y="337" fill="url(#title)">RASA</text>
+</g>
 </svg>
