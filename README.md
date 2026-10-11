@@ -29,6 +29,7 @@ Tabula Rasa studies oversight, authorization, agency, rights and uncertainty in 
 | [Legal and policy register](policy/LEGAL_REGISTER.md) | Dated primary-source references: enacted law, phased application, legislative proposals, nonbinding guidance and rejected proposals |
 | [Charter/legal crosswalk](policy/CHARTER_LEGAL_CROSSWALK.md) | All 20 principles mapped to related legal provisions and unresolved gaps |
 | [Legislative proposals](policy/LEGISLATIVE_PROPOSALS.md) | Eight original, scoped and testable reform proposals, with objections and implementation checks |
+| [Public policy submission](policy/POLICY_SUBMISSION.md) | Short submission-ready argument: three measurable requests, safeguards and legal precedents |
 | [Policy watch](policy/POLICY_WATCH.md) | 2026 policy news, operative dates, amendment notices and verification workflow |
 | [Definitions](DEFINITIONS.md) | Operational terminology |
 | [Research](research/README.md) | 70 unique references, evidence matrix, screening protocol |
