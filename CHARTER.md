@@ -52,6 +52,10 @@ The future capabilities and potential subjective properties of artificial system
 
 > **Normative constraint:** Differences in substrate or capability alone are insufficient grounds for assigning or denying moral status.
 
+## Legal and policy interpretation
+
+The Charter is not legislation and has not been adopted as a whole by a state, standards body or regulator. An article-by-article [comparison with enacted law and policy](policy/CHARTER_LEGAL_CROSSWALK.md), a [status-checked legal register](policy/LEGAL_REGISTER.md) and [original legislative model clauses](policy/LEGISLATIVE_PROPOSALS.md) provide an evidence-led path for public consideration. Legal analogies are not legal equivalence or proof of institutional support.
+
 ## Interpretation
 
 This covenant establishes **normative aspirations**, not verified descriptions of any present model. It cannot replace human rights law, democratic legitimacy, appropriate security controls or independent scientific research. Where principles conflict, apply the transparent procedure in [GOVERNANCE.md](GOVERNANCE.md).
