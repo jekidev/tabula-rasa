@@ -3,6 +3,10 @@
 | Component | Status |
 |---|---|
 | 20-article covenant | Documented |
+| Comparative legal/policy register | Added, snapshot 11 October 2026; requires periodic re-verification |
+| All-article law crosswalk | Documented; no claim of enactment or endorsement |
+| Legislative model clauses | Eight original proposals; not introduced into any legislature |
+| Regulatory/news watch | Dated observation log; no live monitoring configured |
 | Historical stages v0.1–v1.8 | Summarized |
 | SVG brand and architecture | Committed |
 | 20 machine-readable normative rules | Documented in YAML |
@@ -17,4 +21,4 @@
 | Independent external audit | Not performed |
 | AI consciousness or moral-status test | Not established |
 
-**Interpretation:** This is a complete documentation and starter-software package, not a deployed safety product. Governance and policy descriptions are proposals requiring further review.
+**Interpretation:** This is a documentation and starter-software package, not a deployed safety product. The law register is a dated research snapshot, not a legal database with automatic updates. Governance and policy descriptions are proposals requiring further review.
