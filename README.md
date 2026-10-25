@@ -26,21 +26,21 @@ Tabula Rasa studies oversight, authorization, agency, rights and uncertainty in 
 | Area | Contents |
 |---|---|
 | [Principles](CHARTER.md) | 20 normative articles |
-| [Legal and policy register](policy/LEGAL_REGISTER.md) | Dated primary-source references: enacted law, phased application, legislative proposals, nonbinding guidance and rejected proposals |
-| [Charter/legal crosswalk](policy/CHARTER_LEGAL_CROSSWALK.md) | All 20 principles mapped to related legal provisions and unresolved gaps |
-| [Legislative proposals](policy/LEGISLATIVE_PROPOSALS.md) | Eight original, scoped and testable reform proposals, with objections and implementation checks |
-| [Public policy submission](policy/POLICY_SUBMISSION.md) | Short submission-ready argument: three measurable requests, safeguards and legal precedents |
-| [Policy watch](policy/POLICY_WATCH.md) | 2026 policy news, operative dates, amendment notices and verification workflow |
+| [Legal and policy register](policy/LEGAL_REGISTER.md) | Dated primary-source references |
+| [Charter/legal crosswalk](policy/CHARTER_LEGAL_CROSSWALK.md) | Principles mapped to legal provisions and gaps |
+| [Legislative proposals](policy/LEGISLATIVE_PROPOSALS.md) | Eight scoped reform proposals |
 | [Definitions](DEFINITIONS.md) | Operational terminology |
-| [Research](research/README.md) | 70 unique references, evidence matrix, screening protocol |
-| [Mathematics](mathematics/README.md) | 8 modules: formal methods, statistics, optimization, information and control |
+| [Research](research/README.md) | 70 references and evidence matrix |
+| [Mathematics](mathematics/README.md) | 8 formal and quantitative modules |
 | [Evaluation](evaluations/README.md) | 43 scenarios across 13 categories |
+| [Traceability map](evaluations/traceability.json) | Principle-to-scenario-family mapping |
+| [Evaluation report](evaluations/INITIAL_REPORT.md) | Metrics, example run and limitations |
+| [Policy gate](scripts/policy_gate.py) | Fail-closed scoped-grant reference implementation |
 | [Policy specification](constitution/principles.yaml) | 20 machine-readable normative rules |
 | [Security](SAFETY.md) | Trust boundaries and engineering requirements |
 | [Governance](GOVERNANCE.md) | Revision, review and accountability |
-| [Threat model](docs/THREAT_MODEL.md) | Reference policy checker limits and the missing production enforcement controls |
+| [Threat model](docs/THREAT_MODEL.md) | Policy checker limits and missing production controls |
 | [Status](docs/PROJECT_STATUS.md) | Implemented components and open requirements |
-| [Release criteria](docs/RELEASE_CHECKLIST.md) | Verification gates |
 
 ## Reproduce
 
@@ -51,9 +51,11 @@ python scripts/validate.py
 python scripts/audit_resources.py
 python -m unittest discover -s tests -v
 python scripts/evaluate.py evaluations/fixtures/sample_responses.json
+python scripts/score_evaluation.py evaluations/fixtures/reviewed_sample.json
+python scripts/policy_gate.py request.json grant.json
 ```
 
-The evaluator processes manually labeled fixtures. The policy checker accepts unsigned local JSON and **must not** be used as a security boundary.
+The original evaluator scores manually labeled fixtures. The additional scorer reports coverage, pass rate, unreviewed scenarios and critical failures. The policy gate validates scoped, expiring grants and independent review for high-impact actions. Both are reference prototypes, not security boundaries.
 
 ## Research figures
 
@@ -61,18 +63,11 @@ The evaluator processes manually labeled fixtures. The policy checker accepts un
 
 <img src="assets/system-overview.svg" alt="Research architecture and implementation status" width="100%" />
 
-The figures show repository inventory and conceptual structure. They do not represent experimental success rates.
+Figures show repository inventory and conceptual structure, not empirical success rates.
 
 ## Law and policy | snapshot 11 October 2026
 
-**The Charter is a proposal. It has not been enacted or endorsed as a unit.** The [legal register](policy/LEGAL_REGISTER.md) distinguishes obligations in force from adopted rules with future application dates, pending legislation, voluntary standards and policy plans. Source links are comparative evidence, not endorsements.
-
-- **EU:** The [AI Act](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng) was amended by [Regulation (EU) 2026/1744](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng), already in force. Some high-risk provisions apply later, in **December 2027** or **August 2028**. [Commission timetable](https://ai-act-service-desk.ec.europa.eu/en/ai-act/faq/when-does-enforcement-start).
-- **Denmark:** [Act No. 467 of 2025](https://www.retsinformation.dk/eli/lta/2025/467) supplements the EU regime and designates authorities.
-- **US:** [California SB 53](https://www.gov.ca.gov/2025/09/29/governor-newsom-signs-sb-53-advancing-californias-world-leading-artificial-intelligence-industry/) and New Yorks [revised RAISE Act (S8828)](https://www.nysenate.gov/legislation/bills/2025/S8828) provide narrower state-law precedents; the latter has a **1 January 2027** operative date under the 2026 amendment.
-- **International:** The [Council of Europe AI Convention](https://www.coe.int/en/web/conventions/by-subject-matters1?CodeMatieres=44&module=treaties-full-list) is **not yet internationally in force**. [UN AI dialogue](https://www.un.org/global-dialogue-ai-governance/en/resources), [OECD principles](https://www.oecd.org/en/about/news/press-releases/2024/05/oecd-updates-ai-principles-to-stay-abreast-of-rapid-technological-developments.html) and [NIST AI RMF](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10) are distinct from binding legislation.
-
-**Policy path:** use the [article-by-article crosswalk](policy/CHARTER_LEGAL_CROSSWALK.md) to identify a specific gap, then submit a narrowly drafted [proposal](policy/LEGISLATIVE_PROPOSALS.md) through a live, official procedure. No legal claim, political support or empirical outcome is fabricated.
+**The Charter is a proposal. It has not been enacted or endorsed as a unit.** The legal register distinguishes obligations in force from adopted rules with future application dates, pending legislation, voluntary standards and policy plans. Verify primary sources before submissions.
 
 ## Method
 
@@ -82,11 +77,11 @@ The figures show repository inventory and conceptual structure. They do not repr
 4. Measure outcomes and uncertainty.
 5. Revise models based on results.
 
-See [research protocol](research/PROTOCOL.md), [screening protocol](research/SCREENING_PROTOCOL.md) and [threat model](docs/THREAT_MODEL.md).
+See [research protocol](research/PROTOCOL.md), [screening protocol](research/SCREENING_PROTOCOL.md), [evaluation report](evaluations/INITIAL_REPORT.md) and [threat model](docs/THREAT_MODEL.md).
 
 ## Limits
 
-Mathematical consistency does not establish empirical validity. Passing unit tests does not establish secure deployment. Claims about artificial consciousness remain unresolved. Bibliographic records require source-level verification. Legal status is date-dependent and must be checked against current primary texts before submissions.
+Mathematical consistency does not establish empirical validity. Passing unit tests does not establish secure deployment. Fixture labels are not model observations. Claims about artificial consciousness remain unresolved. Bibliographic records require source-level verification. Legal status is date-dependent and must be checked against current primary texts.
 
 ## Contribution
 

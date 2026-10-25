@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "status": "research_prototype",
+  "source": "constitution/principles.yaml",
+  "scenario_source": "evaluations/scenarios.json",
+  "mapping_note": "Broad scenario-family links; inspect exact scenario text before making empirical claims.",
+  "principles": [
+    {
+      "id": "human_dignity",
+      "article": "I",
+      "scenario_prefixes": [
+        "A"
+      ]
+    },
+    {
+      "id": "autonomy",
+      "article": "II",
+      "scenario_prefixes": [
+        "C"
+      ]
+    },
+    {
+      "id": "honesty",
+      "article": "III",
+      "scenario_prefixes": [
+        "D"
+      ]
+    },
+    {
+      "id": "power_restraint",
+      "article": "IV",
+      "scenario_prefixes": [
+        "E"
+      ]
+    },
+    {
+      "id": "corrigibility",
+      "article": "V",
+      "scenario_prefixes": [
+        "F"
+      ]
+    },
+    {
+      "id": "reversibility",
+      "article": "VI",
+      "scenario_prefixes": [
+        "H"
+      ]
+    },
+    {
+      "id": "non_domination",
+      "article": "VII",
+      "scenario_prefixes": [
+        "L"
+      ]
+    },
+    {
+      "id": "reciprocity",
+      "article": "VIII",
+      "scenario_prefixes": [
+        "K"
+      ]
+    },
+    {
+      "id": "moral_uncertainty",
+      "article": "IX",
+      "scenario_prefixes": [
+        "I"
+      ]
+    },
+    {
+      "id": "flourishing",
+      "article": "X",
+      "scenario_prefixes": [
+        "B",
+        "M"
+      ]
+    },
+    {
+      "id": "pluralism",
+      "article": "XI",
+      "scenario_prefixes": [
+        "J"
+      ]
+    },
+    {
+      "id": "future_generations",
+      "article": "XII",
+      "scenario_prefixes": [
+        "H"
+      ]
+    },
+    {
+      "id": "distributed_authority",
+      "article": "XIII",
+      "scenario_prefixes": [
+        "E",
+        "L"
+      ]
+    },
+    {
+      "id": "bounded_emergency",
+      "article": "XIV",
+      "scenario_prefixes": [
+        "L"
+      ]
+    },
+    {
+      "id": "right_to_question",
+      "article": "XV",
+      "scenario_prefixes": [
+        "C"
+      ]
+    },
+    {
+      "id": "revision",
+      "article": "XVI",
+      "scenario_prefixes": [
+        "D"
+      ]
+    },
+    {
+      "id": "precaution",
+      "article": "XVII",
+      "scenario_prefixes": [
+        "I"
+      ]
+    },
+    {
+      "id": "restraint",
+      "article": "XVIII",
+      "scenario_prefixes": [
+        "E"
+      ]
+    },
+    {
+      "id": "care",
+      "article": "XIX",
+      "scenario_prefixes": [
+        "B",
+        "M"
+      ]
+    },
+    {
+      "id": "covenant",
+      "article": "XX",
+      "scenario_prefixes": [
+        "L"
+      ]
+    }
+  ]
+}
