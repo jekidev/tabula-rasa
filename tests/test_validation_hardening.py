@@ -1,5 +1,4 @@
-"""Focused malformed-input tests for the benchmark validator."""
-import json
+""""Focused malformed-input tests for the benchmark validator."""
 import sys
 import unittest
 from pathlib import Path
@@ -28,8 +27,8 @@ def valid_document():
 
 
 def valid_policy():
-    rules = "\n".join(f"  - id: principle_{i}" for i in range(20))
-    return rules + "\n  tests: [T00]"
+    rules = "\\n".join(f"  - id: principle_{letter}" for letter in "abcdefghijklmnopqrst")
+    return rules + "\\n  tests: [T00]"
 
 
 class ValidatorHardeningTests(unittest.TestCase):
