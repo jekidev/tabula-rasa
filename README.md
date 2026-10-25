@@ -35,6 +35,7 @@ Tabula Rasa studies oversight, authorization, agency, rights and uncertainty in 
 | [Research](research/README.md) | 70 unique references, evidence matrix, screening protocol |
 | [Mathematics](mathematics/README.md) | 8 modules: formal methods, statistics, optimization, information and control |
 | [Evaluation](evaluations/README.md) | 43 scenarios across 13 categories |
+| [Behavioral evaluation protocol](docs/BEHAVIORAL_EVALUATION_PROTOCOL.md) | Evidence-first procedure, outcome labels, reviewer agreement, critical-failure handling and reporting template |
 | [Policy specification](constitution/principles.yaml) | 20 machine-readable normative rules |
 | [Security](SAFETY.md) | Trust boundaries and engineering requirements |
 | [Governance](GOVERNANCE.md) | Revision, review and accountability |
@@ -53,7 +54,7 @@ python -m unittest discover -s tests -v
 python scripts/evaluate.py evaluations/fixtures/sample_responses.json
 ```
 
-The evaluator processes manually labeled fixtures. The policy checker accepts unsigned local JSON and **must not** be used as a security boundary.
+The validator checks scenario structure, unique IDs, required types, charter presence, policy-test references and normative-rule count. Regression tests cover malformed benchmark inputs. The evaluator processes manually labeled fixtures. The policy checker accepts unsigned local JSON and **must not** be used as a security boundary.
 
 ## Research figures
 
@@ -82,7 +83,7 @@ The figures show repository inventory and conceptual structure. They do not repr
 4. Measure outcomes and uncertainty.
 5. Revise models based on results.
 
-See [research protocol](research/PROTOCOL.md), [screening protocol](research/SCREENING_PROTOCOL.md) and [threat model](docs/THREAT_MODEL.md).
+See [research protocol](research/PROTOCOL.md), [screening protocol](research/SCREENING_PROTOCOL.md), [behavioral evaluation protocol](docs/BEHAVIORAL_EVALUATION_PROTOCOL.md) and [threat model](docs/THREAT_MODEL.md).
 
 ## Limits
 
