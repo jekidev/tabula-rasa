@@ -3,22 +3,22 @@
 | Component | Status |
 |---|---|
 | 20-article covenant | Documented |
-| Comparative legal/policy register | Added, snapshot 11 October 2026; requires periodic re-verification |
-| All-article law crosswalk | Documented; no claim of enactment or endorsement |
-| Legislative model clauses | Eight original proposals; not introduced into any legislature |
-| Regulatory/news watch | Dated observation log; no live monitoring configured |
-| Historical stages v0.1–v1.8 | Summarized |
-| SVG brand and architecture | Committed |
+| Comparative legal/policy register | Dated snapshot; periodic verification required |
+| Charter/legal crosswalk | Documented; no claim of enactment or endorsement |
+| Legislative model clauses | Eight proposals; not introduced into a legislature |
 | 20 machine-readable normative rules | Documented in YAML |
 | 43 scenario descriptions | Committed |
-| Deterministic fixture evaluation | Implemented |
-| Unit tests and CI workflow | Configured |
+| Original deterministic fixture evaluator | Implemented |
+| Reviewed-fixture scorer | Added; coverage/pass/failure/critical metrics |
+| Principle-to-scenario-family traceability | Added as JSON; broad mapping, needs per-case review |
+| Scoped-grant policy gate | Added; expiry, principal/action/resource/scope matching, independent review for high-impact actions |
+| Policy gate unit tests | Added |
+| CI / local test execution | Must be run and verified before merge |
 | Actual model behavior experiment | Not performed |
-| Local unsigned JSON policy checker | Implemented (demonstration only) |
-| Runtime policy enforcement / MCP gateway | Not implemented |
+| Production runtime enforcement / MCP gateway | Not implemented |
 | Scientific bibliography | 70 unique entries; not independently verified |
 | Mathematical modules | 8 documented; numerical examples tested |
 | Independent external audit | Not performed |
 | AI consciousness or moral-status test | Not established |
 
-**Interpretation:** This is a documentation and starter-software package, not a deployed safety product. The law register is a dated research snapshot, not a legal database with automatic updates. Governance and policy descriptions are proposals requiring further review.
+**Interpretation:** Documentation and starter software only. The policy gate is fail-closed reference code, but caller-supplied grants are not authenticated and it is not a production security boundary. The scoring pipeline evaluates reviewed labels, not model behavior. A real experiment and independent audit remain open.
