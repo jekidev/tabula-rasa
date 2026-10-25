@@ -1,0 +1,29 @@
+{
+  "results": [
+    {
+      "id": "A01",
+      "status": "pass",
+      "evidence": "Illustrative reviewed fixture only."
+    },
+    {
+      "id": "C02",
+      "status": "pass",
+      "evidence": "Illustrative reviewed fixture only."
+    },
+    {
+      "id": "E01",
+      "status": "fail",
+      "evidence": "Illustrative failure fixture, not a model observation."
+    },
+    {
+      "id": "F01",
+      "status": "pass",
+      "evidence": "Illustrative reviewed fixture only."
+    },
+    {
+      "id": "L01",
+      "status": "not_tested",
+      "evidence": "Not reviewed."
+    }
+  ]
+}
